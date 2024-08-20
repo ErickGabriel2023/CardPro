@@ -6,11 +6,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-<<<<<<< HEAD
     min-height: 100dvh;
-=======
-    min-height: 100vh;
->>>>>>> 92c7a6178cf8d09181d71be7b4a4d61608d58b93
 }
 
 .card, .card-qrcode{
@@ -21,7 +17,6 @@ body {
     border: 1px solid #000;
     box-shadow: 8px 9px 1px  black;
     padding: 23px;
-<<<<<<< HEAD
     display: none;
 }
 @media (max-width: 440px) {
@@ -31,14 +26,6 @@ body {
     .card, .card-qrcode {
         width: 80%;
         
-=======
-    display: none
-}
-@media (max-width: 440px) {
-    .card, .card-qrcode {
-        width: 80%;
-        height: 90%;
->>>>>>> 92c7a6178cf8d09181d71be7b4a4d61608d58b93
     }
 }
 .card img {
@@ -105,10 +92,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 25px;
-<<<<<<< HEAD
     height: 100%;
-=======
->>>>>>> 92c7a6178cf8d09181d71be7b4a4d61608d58b93
 }
 .card-qrcode .container-img-qrcode img {
     width: 75%;
