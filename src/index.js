@@ -13,6 +13,8 @@
 //     })  
 // })
 
+
+//Seção Card
 const toggleAtivo = (removeFrom, addTo) => {
     removeFrom.classList.remove('ativo')
     addTo.classList.add('ativo')
@@ -25,3 +27,13 @@ const botaoBack = document.querySelector('#botaoBack')
 
 botaoAdvancer.addEventListener('click', () => toggleAtivo(cardPrincipal, cardQrCode))
 botaoBack.addEventListener('click', () => toggleAtivo(cardQrCode, cardPrincipal))
+
+//Seção QR Code 
+const linkGithub = "https://github.com/ErickGabriel2023"
+
+//Gerar QR Code
+const qrcode = new QRCode(document.querySelector('.qrcode'), {
+    text: linkGithub,
+    width: 300,
+    height: 300,
+})

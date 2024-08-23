@@ -95,7 +95,7 @@ body {
     height: 100%;
 }
 .card-qrcode .container-img-qrcode img {
-    width: 75%;
+    width: 100%;
 }
 .card-qrcode .container-img-qrcode button {
     width: 70%;
